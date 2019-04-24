@@ -1,0 +1,25 @@
+{
+  "name": "protractor-mysample-project",
+  "version": "1.0.0",
+  "description": "This is sample protractor project",
+  "main": "index.js",
+  "scripts": {
+    "server": "node node_modules/ng2f-server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cucumbertest": "protractor JSFiles/config.js",
+    "protractor":"./node_modules/protractor/built/cli.js",
+    "webdriver-update": "./node_modules/.bin/webdriver-manager update"
+  },
+  "author": "siva krishna jampani",
+  "license": "ISC",
+  "dependencies": {
+    "protractor": "^5.4.2",
+    "typescript": "^3.4.5"
+  },
+  "devDependencies": {
+    "@types/cucumber": "^4.0.5",
+    "@types/node": "^11.13.7",
+    "cucumber": "^5.1.0",
+    "protractor-cucumber-framework": "^6.1.1"
+  }
+}
